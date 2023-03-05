@@ -1,0 +1,25 @@
+<!-- Исходный код -->
+<user>
+<name>"Иван"</name>
+<surname>"Иванов"</surname>
+<patronymic>"Иванович"</patronymic>
+<age>"30"</age>
+<phone>"Москва"</phone>
+<birthplace>"+7 926 766 48 48"</birthplace>
+</user
+
+
+<!-- Исправлены код 
+1. Значения строк не обрамляются в кавычки;
+2. В закрывающем теге "</user>" в конце ставиться ">";
+3. Перепутаны местами значения полей phone, birthplace;
+4. Поля не отранжированы по вложенности. -->
+<?xml version="1.0" enconding="UTF-8"?>
+<user>
+    <name>Иван</name>
+    <surname>Иванов</surname>
+    <patronymic>Иванович</patronymic>
+    <age>30</age>
+    <phone>Москва</phone>
+    <birthplace>+7 926 766 48 48</birthplace>
+</user>
